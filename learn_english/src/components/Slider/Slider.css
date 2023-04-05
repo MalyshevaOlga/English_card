@@ -1,0 +1,27 @@
+h1{
+    color: white;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    max-width: 70%;
+    padding-left: 15%;
+}
+.btn{
+    margin-top: 60px;
+}
+.img__back,
+.img__next{
+    width: 3vw;
+    
+}
+
+.wordslist__index{
+    color: white;
+    text-align: center;
+}
+.img__done{
+    width: 30%;
+    display: flex;
+}

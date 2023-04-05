@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
+
+HTML {
+
+--base-fontMain: 'Anton';
+--base-fontText: 'Oswald';
+
+--base-fontSize: 28px;
+--text-Size: 36px;
+--small-text: 18px;
+
+    --color-background: #CDC5BF;
+    --color-text: rgb(162, 38, 245);
+    --base-color: #28201E;
+    --base-color2: #B38C66; 
+    --base-color3: #ffda07;
+    --border: 3px solid white;
+    
+}

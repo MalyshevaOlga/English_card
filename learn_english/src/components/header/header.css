@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;900&display=swap");
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--color-background);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.menuList {
+    display: flex;
+    flex-direction: row;
+    color: rgb(162, 38, 245);
+}
+
+.menuItem {
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: var( --color-text);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.menuItem:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.header__logo{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: 800;
+    align-content: center;
+    align-items: center;
+   
+}
+.logo{
+    height: 280px;
+}

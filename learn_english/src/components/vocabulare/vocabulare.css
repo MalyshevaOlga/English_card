@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;900&display=swap");
+.container__main {
+background:  var(--color-background);
+height: 100%;
+text-align: center;
+}
+
+.table_conteiner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(162, 38, 245);
+}

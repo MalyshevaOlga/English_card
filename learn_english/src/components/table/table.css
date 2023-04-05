@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;900&display=swap");
+  
+
+  h2 {
+    color: rgb(6, 6, 6);
+  }
+  span {
+    font-weight:bolder;
+    font-size: 14px;
+    font-family: "Montserrat";
+  }
+  p {
+    color: rgb(6, 6, 6);
+    font-family: "Montserrat";
+    line-height: 200%;
+    text-align: start;
+  }
+  .table {
+    background-color: white;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 6fr 1.5fr 2.5fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+    border-radius: 10px;
+    padding: 0px 30px;
+    justify-content: left;
+    gap: 20px;
+  }
+  .table_buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 16px;
+  }
+  .card-button {
+    height: 35px;
+    width: 35px;
+    border: none;
+    border-radius: 10px;
+  }
+  .tableSaveButton {
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: black;
+  }
+  .tableEditButton {
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(162, 38, 245);
+    color: black;
+  }
+  .tableEditButton:hover {
+    background-color: green;
+  }
+  .tableEditButton:focus {
+    outline: none;
+  box-shadow: 0 0 0 3px lightskyblue;
+  }
+  .tableDeliteButton {
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #918c88;
+    color: black;
+  }
+  .tableDeliteButton:hover {
+    background-color: red;
+  }
+  
