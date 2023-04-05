@@ -12,20 +12,20 @@ const handleCancelClick = () => {
 setPressed(!pressed);
 setInputText(props);
 };
-
+const onChange = event => setInputText(event.target.value);
 return (
 <div className="tableConteiner">
   {pressed ? (
   <div className="table">
-    <h2><input type="text" value={inputText.english} name={english} /></h2>
+    <h2><input type="text" value={inputText.english} name={english} onChange={onChange}/></h2>
     <p>
-      <span></span> <input type="text" value={inputText.transcription} name={transcription} />
+      <span></span> <input type="text" value={inputText.transcription} name={transcription} onChange={onChange}/>
     </p>
     <p>
-      <span></span> <input type="text" value={inputText.russian} name={russian} />
+      <span></span> <input type="text" value={inputText.russian} name={russian} onChange={onChange}/>
     </p>
     <p>
-      <span></span> <input type="text" value={inputText.tags} name={tags} />
+      <span></span> <input type="text" value={inputText.tags} name={tags} onChange={onChange}/>
     </p>
     <div className="table_buttons">
       <button className="tableSaveButton">✅</button>
