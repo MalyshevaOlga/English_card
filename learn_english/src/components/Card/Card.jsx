@@ -9,7 +9,7 @@ export default function Card({item,
   arrId,}) {
     const [word, setWords] = useState({});
 
-    const focusRef = useRef();
+    const focusRef = useRef(null);
   
     useEffect(() => {
       setWords(item);
@@ -23,7 +23,7 @@ export default function Card({item,
       if (focusRef.current) {
         focusRef.current.focus();
       }
-    }, []);
+    }, [word]);
   
     if (!word) {
       return <h1 className="h1">КОНЕЦ ИГРЫ</h1>;
