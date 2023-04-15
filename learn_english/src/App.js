@@ -1,4 +1,5 @@
 import React from "react";
+import { Apiwords } from "./context/ContextApi";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
@@ -10,6 +11,7 @@ import "./styles/App.css";
 
 function App() {
   return (
+    <Apiwords>
     <div className="App">
       <Header/>
       <Routes>
@@ -18,8 +20,10 @@ function App() {
           <Route exact path="/vocabulary" element={<Vocabulare />} />
           <Route path="*" element={<ErrorPage />} />
       </Routes>
+     
       <Footer/>
     </div>
+    </Apiwords>
   );
 }
 

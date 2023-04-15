@@ -2,7 +2,7 @@ import Logo from "../../images/logo1.png";
 import "../Header/Header.css";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = () => { 
 return (
 <header className="header">
   <div className="header__logo">
