@@ -1,0 +1,11 @@
+.tableDeliteButton {
+    height: 25px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #918c88;
+    color: black;
+  }
+  .tableDeliteButton:hover {
+    background-color: red;
+  }

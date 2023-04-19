@@ -40,6 +40,8 @@ export const Apiwords = (props) => {
     }
     console.log(isLouding);
 
+    
+
     return (
         <ContextApi.Provider value={{ dictionary, isLouding, SetDictionary }}>
             {props.children}

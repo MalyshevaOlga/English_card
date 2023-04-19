@@ -5,6 +5,8 @@ import { ContextApi } from "../../context/ContextApi";
 
 function Vocabulare() {
   const { dictionary } = useContext(ContextApi);
+  
+
 return (
 <div className="App__container">
   <main className="container__main">
@@ -13,7 +15,7 @@ return (
       {
       dictionary.map((word, i) =>
       <Table 
-      key={i} english={word.english} transcription={word.transcription} russian={word.russian} tags={word.tags}
+      key={i} id={word.id} english={word.english} transcription={word.transcription} russian={word.russian} tags={word.tags}
          />)
       }</div>
   </main>
